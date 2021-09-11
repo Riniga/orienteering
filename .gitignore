@@ -29,7 +29,21 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
-[Ll]ogs/
+
+# Unity stuff
+/[Ll]ogs/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+#[Uu]ser[Ss]ettings/
+/[Ll]ibrary/
+/[Mm]emoryCaptures/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
+# Gradle cache directory
+.gradle/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
