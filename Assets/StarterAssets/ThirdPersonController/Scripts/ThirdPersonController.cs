@@ -15,10 +15,13 @@ namespace StarterAssets
 	public class ThirdPersonController : MonoBehaviour
 	{
 		[Header("Player")]
+		[Tooltip("Walk speed of the character in m/s")]
+		public float WalkSpeed = 2.0f;
+		[Header("Player")]
 		[Tooltip("Move speed of the character in m/s")]
-		public float MoveSpeed = 2.0f;
+		public float MoveSpeed = 5.335f;
 		[Tooltip("Sprint speed of the character in m/s")]
-		public float SprintSpeed = 5.335f;
+		public float SprintSpeed = 8.335f;
 		[Tooltip("How fast the character turns to face movement direction")]
 		[Range(0.0f, 0.3f)]
 		public float RotationSmoothTime = 0.12f;
@@ -169,7 +172,7 @@ namespace StarterAssets
 		private void Move()
 		{
 			// set target speed based on move speed, sprint speed and if sprint is pressed
-			float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
+			float targetSpeed = _input.sprint ? SprintSpeed : _input.walk ? WalkSpeed : MoveSpeed;
 
 			// a simplistic acceleration and deceleration designed to be easy to remove, replace, or iterate upon
 

@@ -1,1 +1,55 @@
-https://www.youtube.com/watch?v=smnLYvF40s4
+Import: Starter Asset, 
+Install: Unity Register -> Terrain Tools
+
+
+
+
+Terrain https://www.youtube.com/watch?v=smnLYvF40s4
+Player https://www.youtube.com/watch?v=CD0FlqllfIE
+Menu https://www.youtube.com/watch?v=zc8ac_qUXQY
+
+
+Presenterbar produkt
+--------------------
+
+Landskap
+	Kuperat landskap
+	Gräs, blommor och träd
+	Himmel (Skybox)
+
+Labyrint
+	
+Kontroller
+	start/mål och 7st
+	Modellera i Blender
+	Start och mål på en plint
+	Ljudeffekt
+HUD
+	Räknare - Visar antal tagna kontroller x/7
+	Timer - Startar vid start och slutar vid mål om 1-7 tagits i rätt följd
+	Karta - Visar en bild på en passad karta
+Karaktär
+	Animerad löpare
+	Kan hoppa
+	Har tre farter (Gå, springa, sprinta)
+	Avatar av mäniska 
+	HSOK kläder
+Kontroller
+
+Välkomstskärm (laddare)
+
+
+
+
+Utökade funktioner
+------------------
+Pregame menu
+Kondition (mötare som gör att man inte kan sprinta)
+Multiplayer (två spelare)
+Bunnyhoppa
+Generera banor
+Olika labyrinter
+Skogsbana
+
+
+

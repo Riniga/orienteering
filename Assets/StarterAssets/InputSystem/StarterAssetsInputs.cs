@@ -12,6 +12,7 @@ namespace StarterAssets
 		public Vector2 look;
 		public bool jump;
 		public bool sprint;
+		public bool walk;
 
 		[Header("Movement Settings")]
 		public bool analogMovement;
@@ -44,6 +45,15 @@ namespace StarterAssets
 		public void OnSprint(InputValue value)
 		{
 			SprintInput(value.isPressed);
+		}
+		public void OnWalk(InputValue value)
+		{
+			walk = value.isPressed;
+			
+		}
+		public void OnExit(InputValue value)
+		{
+			Application.Quit();
 		}
 #else
 	// old input sys if we do decide to have it (most likely wont)...
